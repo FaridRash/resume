@@ -1,29 +1,29 @@
 {
 	"about": {
-		"firstname": "Alireza",
-		"lastname": "Fazel",
-		"jobTitle": "Front End Developer",
+		"firstname": "Seyed Ali",
+		"lastname": "Rashidi",
+		"jobTitle": "Data Scientist",
 		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
 		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
 			{
 				"icon": "location",
-				"value": "Tehran - Isfahan"
+				"value": "Naples - Italy"
 			},
 			{
 				"icon": "phone",
-				"value": "+98 9338234878",
-				"link": "tel: +98 9338234878"
+				"value": "+39 3517683212",
+				"link": "+39 3517683212"
 			},
 			{
 				"icon": "mail",
-				"value": "Alirezafazel379@gmail.com",
-				"link": "mailto: alirezafazel379@gmail.com"
+				"value": "farid.rash@gmail.com",
+				"link": "mailto: farid.rash@gmail.com"
 			},
 			{
 				"icon": "linkedin",
-				"value": "alireza-fazel-863204199",
-				"link": "https://www.linkedin.com/in/alireza-fazel-863204199/"
+				"value": "FaridRash",
+				"link": "https://www.linkedin.com/in/faridrash/"
 			}
 		]
 	},
