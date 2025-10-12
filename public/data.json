@@ -3,7 +3,7 @@
 		"firstname": "Seyed Ali",
 		"lastname": "Rashidi",
 		"jobTitle": "Data Scientist",
-		"description": "A highly efficient and reliable React JS developer specializing in web development who is interested in design and learning.\nI have much experience in teamwork and excellent problem-solving skills.",
+		"description": "Computer Vision Engineer and Data Scientist specialized in image processing, remote sensing, astroinformatics, and optical payload simulation. I lead the Payload Department of the IGNIS CubeSat Project, focusing on radiometric modeling, MTF/SNR analysis, and optical system simulation in Zemax.\nProficient in Python, OpenCV, TensorFlow, and PyTorch. I combine physics-based modeling, deep learning, and astroinformatics methods to build reliable imaging systems for aerospace and Earth observation missions.",
 		"image": "/assets/images/about/about.jpg",
 		"socialLinks": [
 			{
