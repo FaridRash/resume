@@ -14,8 +14,8 @@ const Home: NextPage = () => {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Alireza Fazel Resume</title>
-				<meta name='description' content='This is a frontend developer resume' />
+				<title>Seyed Ali Rashidi Resume</title>
+				<meta name='description' content='This is a data scientist resume' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<About about={about} />
