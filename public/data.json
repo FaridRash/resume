@@ -72,37 +72,47 @@
 				]
 			},
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "Morphological Classification of Extragalactic Radio Sources",
+				"description": "Deep Learning Image Classification Project",
 				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
+					"start": "Jul 2024",
+					"finish": "Oct 2024"
 				},
-				"role": "Front-End Developer",
+				"role": "Deep Learning Researcher",
 				"icon": "/assets/images/works/malltina.jpg",
-				"link": "https://malltina.com",
+				"link": "https://github.com/FaridRash/Morphological-Classification-of-Extragalactic-Radio-Sources-Using-Convolutional-Neural-Network",
 				"bulletPoints": [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Built and trained a CNN model to classify radio galaxies into FR0, FRI, and FRII classes.",
+					"Processed and balanced a dataset of 18,000+ images to ensure stable training and evaluation.",
+					"Performed data augmentation and symmetry-based feature engineering to improve model performance.",
+					"Conducted extensive EDA, visualization, and error analysis to refine classification accuracy.",
+					"Integrated additional morphological features into the network after CNN feature extraction.",
+					"Documented results and structured the project for scalability and reproducibility."
 				],
 				"hardSkills": [
 					{
-						"title": "Next.js"
+						"title": "Python"
 					},
 					{
-						"title": "React.js"
+						"title": "TensorFlow / Keras"
 					},
 					{
-						"title": "Typescript"
+						"title": "CNN"
 					},
 					{
-						"title": "Javascript"
+						"title": "Image Processing"
 					},
 					{
-						"title": "Sass"
+						"title": "Data Augmentation"
+					},
+					{
+						"title": "Computer Vision"
+					},
+					{
+						"title": "Scientific Visualization"
+					},
+					{
+						"title": "EDA"
 					}
 				]
 			}
