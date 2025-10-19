@@ -2,8 +2,9 @@
 	border: 1px solid $light-blue-grey;
 	background-color: $white;
 	border-radius: 24px;
-	width: calc(33% - 16px);
+	width: calc(33.333% - 16px);
 	margin: 8px;
+	flex: 0 0 auto;
 }
 
 .top {
@@ -71,24 +72,38 @@
 }
 
 .hardSkills {
+	display: flex;
+	flex-wrap: wrap;
 	padding: 0;
 	margin: 0;
 	list-style: none;
 }
 
+.skillsSection {
+	margin-top: 16px;
+}
+
+.skillsTitle {
+	font-size: 14px;
+	font-weight: 600;
+	color: $dark-blue-grey;
+	margin-top: 0;
+	margin-bottom: 12px;
+}
+
 .hardSkill {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
-	justify-content: flex-start;
-	margin: 8px 0;
-
-	&:first-child {
-		margin-top: 0;
-	}
-
-	&:last-child {
-		margin-bottom: 0;
-	}
+	gap: 4px;
+	padding: 6px 8px;
+	border: 1px solid #cacce4;
+	border-radius: 6px;
+	transition: all 0.3s;
+	color: #000000;
+	font-size: 12px;
+	font-weight: 300;
+	margin-right: 8px;
+	margin-bottom: 8px;
 
 	img {
 		border-radius: 50%;
@@ -96,24 +111,63 @@
 }
 
 .hardSkillTitle {
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+}
+
+.iconWrapper {
+	margin-right: 8px;
+}
+
+.bulletPointsSection {
+	margin-bottom: 24px;
+}
+
+.bulletPoints {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-left: 16px;
+}
+
+.bulletPoint {
+	position: relative;
 	font-size: 14px;
 	font-weight: normal;
 	color: $dark-blue-grey;
-	margin-left: 8px;
+	margin-bottom: 8px;
+	line-height: 1.5;
+
+	&:before {
+		content: '•';
+		position: absolute;
+		left: -16px;
+		color: $dark-blue-grey;
+		font-weight: bold;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 @media only screen and (max-width: $breakpoint-xl) {
-	.workCard {
+	.projectCard {
 		width: calc(50% - 16px);
+		max-width: none;
 	}
 }
 @media only screen and (max-width: $breakpoint-md) {
-	.workCard {
-		min-width: 352px;
+	.projectCard {
+		width: calc(100% - 16px);
+		max-width: 500px;
+		margin: 8px auto;
 	}
 }
 @media only screen and (max-width: $breakpoint-sm) {
-	.workCard {
-		min-width: 90%;
+	.projectCard {
+		width: calc(100% - 16px);
+		margin: 8px;
 	}
 }
