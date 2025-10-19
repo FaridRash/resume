@@ -63,6 +63,41 @@
 						"title": "Sass"
 					}
 				]
+			},
+			{
+				"title": "Malltina",
+				"description": "E-Commerce Web Application",
+				"date": {
+					"start": "Jul 2021",
+					"finish": "Present"
+				},
+				"role": "Front-End Developer",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "https://malltina.com",
+				"bulletPoints": [
+					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
+					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
+					"Maintained graphic standards and branding throughout the product's interfaces using base components",
+					"Improved code base quality and performance optimization",
+					"Rewrote a complete new version of the search page, along with performance optimizations"
+				],
+				"hardSkills": [
+					{
+						"title": "Next.js"
+					},
+					{
+						"title": "React.js"
+					},
+					{
+						"title": "Typescript"
+					},
+					{
+						"title": "Javascript"
+					},
+					{
+						"title": "Sass"
+					}
+				]
 			}
 		]
 	},
