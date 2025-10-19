@@ -30,37 +30,44 @@
 	"projects": {
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "IGNIS CubeSat Project",
+				"description": "Earth Observation & Volcanology Mission",
 				"date": {
-					"start": "Jul 2021",
+					"start": "Mar 2024",
 					"finish": "Present"
 				},
-				"role": "Front-End Developer",
+				"role": "Payload Department Supervisor",
 				"icon": "/assets/images/works/malltina.jpg",
 				"link": "https://malltina.com",
 				"bulletPoints": [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Designed and implemented radiometric and optical simulations for FLIR Boson 640 thermal camera (6° & 8° lens).",
+					"Developed Python tools for SNR/MTF analysis, heat-map generation, and altitude scaling.",
+					"Simulated camera performance in Zemax OpticStudio, including spot diagrams and resolution analysis.",
+					"Integrated Payload modeling with Mission Analysis and ADCS parameters for orbital geometry.",
+					"Led a small technical team, coordinated deliverables, and produced detailed engineering reports.",
+					"Supported early mission design by providing camera performance predictions under different orbital scenarios."
 				],
 				"hardSkills": [
 					{
-						"title": "Next.js"
+						"title": "Python"
 					},
 					{
-						"title": "React.js"
+						"title": "Zemax OpticStudio"
 					},
 					{
-						"title": "Typescript"
+						"title": "Computer Vision"
 					},
 					{
-						"title": "Javascript"
+						"title": "Remote Sensing"
 					},
 					{
-						"title": "Sass"
+						"title": "Thermal Imaging"
+					},
+					{
+						"title": "EO Data Analysis"
+					},
+					{
+						"title": "Team Leadership"
 					}
 				]
 			},
