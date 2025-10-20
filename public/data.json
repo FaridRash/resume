@@ -170,131 +170,114 @@
 	"works": {
 		"items": [
 			{
-				"title": "Malltina",
-				"description": "E-Commerce Web Application",
+				"title": "EZ-Tech",
+				"description": "",
 				"date": {
-					"start": "Jul 2021",
-					"finish": "Present"
+					"start": "Oct 2016",
+					"finish": "Dec 2023"
 				},
 				"location": "Karaj",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/malltina.jpg",
-				"link": "https://malltina.com",
+				"type": "On-site",
+				"jobTitle": "Full-Time Data Recovery Engineer",
+				"icon": "",
+				"link": "",
 				"bulletPoints": [
-					"Implemented purchasing portal from Asian countries including Turkey, UAE, and China",
-					"Rewrote a new version of the most viewed web pages using Next.js based on micro-frontend architecture",
-					"Mentored 2 junior front-end developers who wanted to get a deep understanding of React.js and Next.js",
-					"Maintained graphic standards and branding throughout the product's interfaces using base components",
-					"Improved code base quality and performance optimization",
-					"Rewrote a complete new version of the search page, along with performance optimizations"
+					"Recovered and reconstructed data from damaged or corrupted storage devices (HDD, SSD, RAID, flash memory).",
+					"Diagnosed hardware and software failures using specialized forensic tools.",
+					"Developed and optimized recovery workflows to increase success rate and reduce turnaround time.",
+					"Provided technical support and consultation to clients for secure data handling.",
+					"Collaborated with cross-functional teams to ensure service quality and data confidentiality."
 				],
 				"hardSkills": [
 					{
-						"title": "Next.js"
+						"title": "Data Recovery"
 					},
 					{
-						"title": "React.js"
+						"title": "Digital Forensics"
 					},
 					{
-						"title": "Typescript"
+						"title": "RAID Systems"
 					},
 					{
-						"title": "Javascript"
+						"title": "HDD/SSD Diagnostics"
 					},
 					{
-						"title": "Sass"
+						"title": "Secure Data Handling"
+					},
+					{
+						"title": "Hardware Repair"
 					}
 				]
 			},
 			{
-				"title": "Limoonline",
-				"description": "Virtual Classroom Landing Page",
+				"title": "Faraz Omran Tadbir",
+				"description": "",
 				"date": {
-					"start": "Feb 2022",
-					"finish": "Present"
+					"start": "Oct 2020",
+					"finish": "Dec 2023"
 				},
-				"location": "",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
-				"link": "https://limoonline.ir",
+				"location": "Tehran",
+				"type": "On-site",
+				"jobTitle": "Part-Time IT Support Specialist",
+				"icon": "",
+				"link": "",
 				"bulletPoints": [
-					"Developed responsive landing page for virtual classroom platform",
-					"Implemented interactive UI components using React.js",
-					"Optimized page loading speed and user experience",
-					"Collaborated with design team to ensure pixel-perfect implementation"
+					"Provided technical support for network and system issues.",
+					"Installed and maintained operating systems and software packages.",
+					"Monitored and optimized system performance for office infrastructure.",
+					"Assisted users in troubleshooting and resolving technical problems."
 				],
 				"hardSkills": [
 					{
-						"title": "React.js"
+						"title": "IT Support"
 					},
 					{
-						"title": "Sass"
+						"title": "Windows/Linux Systems"
+					},
+					{
+						"title": "Network Troubleshooting"
+					},
+					{
+						"title": "Helpdesk"
+					},
+					{
+						"title": "Software Installation"
 					}
 				]
 			},
 			{
-				"title": "Aramicmedtour",
-				"description": "Health Tour Web Application",
+				"title": "Tunnel Raad Consultant",
+				"description": "",
 				"date": {
 					"start": "Mar 2020",
 					"finish": "Jul 2021"
 				},
-				"location": "Isfahan",
-				"type": "Remote",
-				"jobTitle": "Front-End Developer",
-				"icon": "/assets/images/works/aramicmedtour.png",
-				"link": "https://aramicmedtour.com",
-				"bulletPoints": [
-					"Built comprehensive health tourism platform with booking system",
-					"Developed multi-language support for international patients",
-					"Implemented secure payment gateway integration",
-					"Created admin dashboard for managing medical packages and bookings"
-				],
-				"hardSkills": [
-					{
-						"title": "Next.js"
-					},
-					{
-						"title": "React.js"
-					}
-				]
-			},
-			{
-				"title": "Gentleman Barbershop",
-				"description": "Barbershop Reservation Website",
-				"date": {
-					"start": "Jan 2020",
-					"finish": "Mar 2021"
-				},
-				"location": "",
-				"type": "Freelance",
-				"jobTitle": "PHP Developer",
-				"icon": "/assets/images/works/limoonline.jpg",
+				"location": "Tehran",
+				"type": "On-site",
+				"jobTitle": "Part-Time IT Support Specialist",
+				"icon": "",
 				"link": "",
 				"bulletPoints": [
-					"Developed custom reservation system for barbershop appointments",
-					"Built customer management system with appointment history",
-					"Implemented email notifications for appointment confirmations",
-					"Created responsive design for mobile and desktop users",
-					"Integrated payment processing for online bookings"
+					"Installed and configured hardware, software, and network equipment.",
+					"Provided on-site IT support for employees.",
+					"Documented and reported technical issues and solutions.",
+					"Assisted with regular system maintenance and upgrades."
 				],
 				"hardSkills": [
 					{
-						"title": "PHP"
+						"title": "IT Support"
 					},
 					{
-						"title": "My SQL"
+						"title": "Networking"
 					},
 					{
-						"title": "Javascript"
+						"title": "System Installation"
 					},
 					{
-						"title": "Html"
+						"title": "Troubleshooting"
 					},
 					{
-						"title": "CSS"
+						"title": "Maintenance"
 					}
 				]
 			}
