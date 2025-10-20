@@ -354,39 +354,41 @@
 	"softSkills": {
 		"title": "Soft Skills",
 		"items": [
-			"Communication skills",
-			"Organizing skills",
-			"Teamwork",
-			"Accuracy",
-			"Punctuality",
-			"Creativity",
-			"Adaptability",
-			"Friendly Personality"
+			"Technical Leadership",
+			"Strategic Planning",
+			"Team Collaboration",
+			"Problem Solving",
+			"Critical Thinking",
+			"Time Management",
+			"Attention to Detail",
+			"Cross-Disciplinary Communication",
+			"Self-Motivation",
+			"Adaptability"
 		]
 	},
 	"education": {
 		"title": "Educational History",
 		"items": [
 			{
-				"name": "Shamsipour Tehran",
-				"type": "Technical & Vocational",
-				"grade": "Bachelor's Degree",
-				"science": "Software Engineering",
-				"icon": "/assets/images/education/shamsipour.png",
+				"name": "University of Naples Federico II",
+				"type": "University",
+				"grade": "Master's Degree",
+				"science": "Data Science",
+				"icon": "/assets/images/education/unina.png",
 				"date": {
-					"start": "2020",
-					"finish": "2022"
-				}
+					"start": "2023",
+					"finish": "Present"
+					}
 			},
 			{
-				"name": "Mohajer Isfahan",
-				"type": "Technical & Vocational",
-				"grade": "Associate's Degree",
-				"science": "Computer Engineering",
-				"icon": "/assets/images/education/mohajer.jpg",
+				"name": "Islamic Azad University",
+				"type": "University",
+				"grade": "Bachelor's Degree",
+				"science": "Computer Software Engineering Technology",
+				"icon": "/assets/images/education/azad.png",
 				"date": {
-					"start": "2018",
-					"finish": "2020"
+					"start": "2009",
+					"finish": "2012"
 				}
 			}
 		]
