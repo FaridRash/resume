@@ -374,7 +374,7 @@
 				"type": "University",
 				"grade": "Master's Degree",
 				"science": "Data Science",
-				"icon": "/assets/images/education/unina.png",
+				"icon": "",
 				"date": {
 					"start": "2023",
 					"finish": "Present"
@@ -385,7 +385,7 @@
 				"type": "University",
 				"grade": "Bachelor's Degree",
 				"science": "Computer Software Engineering Technology",
-				"icon": "/assets/images/education/azad.png",
+				"icon": "",
 				"date": {
 					"start": "2009",
 					"finish": "2012"
