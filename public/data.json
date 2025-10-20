@@ -115,6 +115,55 @@
 						"title": "EDA"
 					}
 				]
+			},
+			{
+				"title": "ALS Clinical Data Modeling",
+				"description": "Advanced Statistical Learning Case Study",
+				"date": {
+					"start": "Jul 2025",
+					"finish": "Oct 2025"
+				},
+				"role": "Data Scientist / Statistical Modeler",
+				"icon": "/assets/images/works/malltina.jpg",
+				"link": "https://github.com/FaridRash/Morphological-Classification-of-Extragalactic-Radio-Sources-Using-Convolutional-Neural-Network",
+				"bulletPoints": [
+					"Analyzed longitudinal clinical data from 254 ALS patients (1,412 visits) collected at the ALS Center of Federico II University Hospital.",
+					"Explored demographic, clinical, and progression variables (ALSFRS-R, KINGS stage, MRC scores, FVC, therapy, diagnostic delay, etc.).",
+					"Modeled disease severity and progression using GLM, ordinal regression, and mixed-effects models.",
+					"Incorporated Bayesian posterior analysis to estimate parameter uncertainty and interpret clinical variable effects.",
+					"Compared cross-sectional vs. longitudinal strategies to handle repeated measures per patient.",
+					"Applied feature engineering, missing data treatment, and variable transformation to improve model robustness.",
+					"Delivered a scientific report, codebase, and presentation structured like a research article."
+				],
+				"hardSkills": [
+					{
+						"title": "Python"
+					},
+					{
+						"title": "GLM"
+					},
+					{
+						"title": "Mixed Effects Models"
+					},
+					{
+						"title": "Ordinal Regression"
+					},
+					{
+						"title": "Bayesian Inference"
+					},
+					{
+						"title": "Posterior Analysis"
+					},
+					{
+						"title": "Longitudinal Data"
+					},
+					{
+						"title": "Statistical Modeling"
+					},
+					{
+						"title": "Clinical Data Analysis"
+					}
+				]
 			}
 		]
 	},
