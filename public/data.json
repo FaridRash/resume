@@ -287,37 +287,67 @@
 		"title": "Hard Skills",
 		"items": [
 			{
-				"title": "Next.js"
+				"title": "Python"
 			},
 			{
-				"title": "React.js"
-			},
-			{
-				"title": "Typescript"
-			},
-			{
-				"title": "Javascript"
-			},
-			{
-				"title": "Sass"
+				"title": "C++"
 			},
 			{
 				"title": "Git"
 			},
 			{
-				"title": "Html"
+				"title": "Linux"
 			},
 			{
-				"title": "CSS"
+				"title": "Pandas"
 			},
 			{
-				"title": "jQuery"
+				"title": "NumPy"
 			},
 			{
-				"title": "PHP"
+				"title": "Matplotlib"
 			},
 			{
-				"title": "My SQL"
+				"title": "Scikit-learn"
+			},
+			{
+				"title": "PyTorch"
+			},
+			{
+				"title": "TensorFlow"
+			},
+			{
+				"title": "OpenCV"
+			},
+			{
+				"title": "Jupyter Notebook"
+			},
+			{
+				"title": "Zemax"
+			},
+			{
+				"title": "Remote Sensing"
+			},
+			{
+				"title": "SNR/MTF Modeling"
+			},
+			{
+				"title": "Machine Learning"
+			},
+			{
+				"title": "Deep Learning"
+			},
+			{
+				"title": "Reinforcement Learning"
+			},
+			{
+				"title": "Data Analysis"
+			},
+			{
+				"title": "Computer Vision"
+			},
+			{
+				"title": "Astroinformatics"
 			}
 		]
 	},
