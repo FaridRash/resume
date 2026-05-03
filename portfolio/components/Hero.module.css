@@ -1,0 +1,182 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.3;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 40%, transparent 100%);
+}
+
+.orb {
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(0, 212, 255, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+  animation: fadeInUp 0.8s ease both;
+}
+
+.greeting {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  margin-bottom: 1.25rem;
+}
+
+.bracket { color: var(--accent); margin-right: 0.5rem; }
+
+.name {
+  font-size: clamp(3rem, 9vw, 6.5rem);
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+.nameAccent {
+  color: var(--accent);
+  text-shadow: 0 0 40px rgba(0, 212, 255, 0.4);
+}
+
+.roleWrap {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.rolePrefix {
+  font-family: var(--mono);
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+.role {
+  font-family: var(--mono);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.cursor {
+  display: inline-block;
+  color: var(--accent);
+  animation: blink 1s step-end infinite;
+}
+
+.tagline {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  color: var(--text-muted);
+  max-width: 520px;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.highlight {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.pill {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  color: var(--text-dim);
+  background: var(--surface);
+  text-transform: uppercase;
+}
+
+.ctas {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  padding: 0.7rem 1.8rem;
+  background: var(--accent);
+  color: var(--bg) !important;
+  border-radius: var(--radius);
+  font-weight: 600;
+  transition: box-shadow 0.2s, transform 0.2s;
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+.ctaPrimary:hover {
+  box-shadow: 0 0 30px var(--accent-glow-strong);
+  transform: translateY(-1px);
+}
+
+.ctaSecondary {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  padding: 0.7rem 1.8rem;
+  border: 1px solid var(--border);
+  color: var(--text-muted) !important;
+  border-radius: var(--radius);
+  transition: border-color 0.2s, color 0.2s;
+}
+.ctaSecondary:hover {
+  border-color: var(--accent2);
+  color: var(--accent) !important;
+}
+
+.scrollHint {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.scrollLine {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, var(--accent), transparent);
+  animation: fadeInUp 2s ease-in-out infinite;
+}
+
+.scrollText {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}

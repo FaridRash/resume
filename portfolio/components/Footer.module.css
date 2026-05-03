@@ -1,0 +1,32 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 2rem 0;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.logo {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.bracket { color: var(--accent); }
+
+.copy {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-left: auto;
+}
+
+.built {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
