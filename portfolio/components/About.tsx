@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './About.module.css'
 
 export default function About() {
@@ -10,6 +11,19 @@ export default function About() {
 
         <div className={styles.grid}>
           <div className={styles.bio}>
+
+            {/* ── PHOTO ── */}
+            <div className={styles.photoWrapper}>
+              <Image
+                src="/profile.jpg"
+                alt="Seyed Ali Rashidi"
+                width={260}
+                height={320}
+                className={styles.photo}
+                priority
+              />
+            </div>
+
             <p>
               I&apos;m an engineer working at the intersection of <strong>deep learning</strong>,{' '}
               <strong>computer vision</strong>, and <strong>space systems</strong>. My work spans
@@ -30,8 +44,8 @@ export default function About() {
 
             <div className={styles.stats}>
               {[
-                { value: '7+', label: 'Years Engineering' },
-                { value: '3',  label: 'Active Projects'   },
+                { value: '7+',  label: 'Years Engineering' },
+                { value: '3',   label: 'Active Projects' },
                 { value: '18K', label: 'Galaxy Images Classified' },
               ].map(s => (
                 <div key={s.label} className={styles.stat}>

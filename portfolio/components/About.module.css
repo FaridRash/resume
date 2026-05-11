@@ -110,3 +110,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+.photoWrapper {
+  margin-bottom: 1.8rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.photo {
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  filter: contrast(1.05) saturate(0.95);
+}
