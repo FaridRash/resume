@@ -25,27 +25,28 @@ export default function About() {
             </div>
 
             <p>
-              I&apos;m an engineer working at the intersection of <strong>deep learning</strong>,{' '}
-              <strong>computer vision</strong>, and <strong>space systems</strong>. My work spans
-              medical imaging, radio astronomy, and satellite payload design — I build end-to-end
-              pipelines from raw sensor data to trained models and deployed systems.
+              I&apos;m a Computer Vision and Deep Learning Engineer with hands-on experience
+              designing, training, and deploying end-to-end CV pipelines across{' '}
+              <strong>medical imaging</strong>, <strong>Earth Observation</strong>, and{' '}
+              <strong>astronomical data</strong>.
             </p>
             <p>
               Currently serving as <strong>Payload Supervisor</strong> on the{' '}
-              <strong>IGNIS CubeSat project</strong>, developing thermal infrared imaging systems
-              for volcano monitoring from orbit. Alongside that, I work on deep learning models
-              for brain CT hemorrhage segmentation and morphological classification of radio galaxies.
+              <strong>IGNIS CubeSat mission</strong> at the University of Naples Federico II —
+              leading thermal-infrared imaging performance and Signal-to-Noise Ratio (SNR)
+              modelling for an Earth observation payload using the FLIR Boson+ 640 and RHP
+              CameraLink module.
             </p>
             <p>
-              My background includes 7 years as a Data Recovery Engineer — which trained me to work
-              methodically under uncertainty, analyze system-level failures, and care deeply about
-              data integrity. I bring that discipline to every ML pipeline I build.
+              Skilled in CNNs, Transformers, YOLO, and U-Net architectures for object detection,
+              semantic segmentation, image classification, and anomaly detection, with proven
+              experience packaging deep learning models as Dockerized REST inference services on GCP.
             </p>
 
             <div className={styles.stats}>
               {[
                 { value: '7+',  label: 'Years Engineering' },
-                { value: '3',   label: 'Active Projects' },
+                { value: '3',   label: 'Active Projects'   },
                 { value: '18K', label: 'Galaxy Images Classified' },
               ].map(s => (
                 <div key={s.label} className={styles.stat}>
@@ -66,9 +67,9 @@ export default function About() {
                 {[
                   'Medical Image Segmentation',
                   'Satellite Payload Engineering',
-                  'Radio Astronomy (CNN)',
+                  'Earth Observation (CubeSat)',
                   'Thermal IR Sensor Modelling',
-                  'Optical System Design (Zemax)',
+                  'Radio Astronomy (CNN)',
                   'Reinforcement Learning',
                 ].map(item => (
                   <li key={item}>
@@ -81,14 +82,14 @@ export default function About() {
             <div className={styles.infoCard}>
               <h3 className={styles.infoTitle}>
                 <span className={styles.dot} />
-                Currently Learning
+                Languages
               </h3>
               <ul className={styles.infoList}>
                 {[
-                  'Advanced CNN architectures',
-                  'Zemax optical workflows',
-                  'Statistical IR remote sensing',
-                  'End-to-end payload modelling',
+                  'English — C1',
+                  'Italian  — A2',
+                  'German  — A1',
+                  'Persian  — Native',
                 ].map(item => (
                   <li key={item}>
                     <span className={styles.arrow}>→</span> {item}

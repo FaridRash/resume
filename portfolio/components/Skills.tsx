@@ -2,28 +2,52 @@ import styles from './Skills.module.css'
 
 const skillGroups = [
   {
-    label: 'ML / Deep Learning',
-    skills: ['PyTorch', 'TensorFlow', 'Keras', 'scikit-learn', 'OpenCV', 'MLflow', 'Optuna'],
+    label: 'Computer Vision & Deep Learning',
+    skills: [
+      'Image Classification', 'Object Detection (2D/3D)', 'Semantic Segmentation',
+      'Instance Segmentation', 'Anomaly Detection', 'CNNs', 'Transformers', 'ViT',
+      'YOLO', 'U-Net', 'Transfer Learning', 'Hyperparameter Tuning',
+      'mAP / IoU / Dice',
+    ],
   },
   {
-    label: 'Computer Vision',
-    skills: ['U-Net', 'CNN', 'ResNet', 'Image Segmentation', 'Object Detection', 'Feature Extraction'],
+    label: 'Programming & Frameworks',
+    skills: [
+      'Python', 'C++', 'PyTorch', 'TensorFlow / Keras', 'OpenCV',
+      'NumPy', 'Pandas', 'SciPy', 'Scikit-learn', 'Matplotlib',
+      'Pillow', 'Jupyter Notebook',
+    ],
   },
   {
-    label: 'Data & Science',
-    skills: ['NumPy', 'Pandas', 'SciPy', 'Matplotlib', 'Plotly', 'Statistical Modelling'],
+    label: 'MLOps & Deployment',
+    skills: [
+      'Docker', 'REST Inference APIs', 'Google Cloud Platform (GCP)',
+      'Google Cloud Run', 'CI/CD', 'Git', 'Model Versioning',
+      'Containerized Deployment',
+    ],
   },
   {
-    label: 'Languages',
-    skills: ['Python', 'C++', 'C', 'Bash'],
+    label: 'Imaging Systems & Remote Sensing',
+    skills: [
+      'Thermal-Infrared Imaging', 'Radiometric Modelling', 'SNR / FoV Analysis',
+      'Microbolometric Sensors', 'Earth Observation', 'Satellite Imagery',
+      'Change Detection', 'Hounsfield Units', 'Multi-Windowing',
+      'Zemax OpticStudio',
+    ],
   },
   {
-    label: 'Space & Optical',
-    skills: ['Zemax OpticStudio', 'Radiometric Modelling', 'SNR/NETD Analysis', 'Thermal IR', 'FLIR Boson 640'],
+    label: 'Data & Analysis',
+    skills: [
+      'SQL', 'Power BI', 'Statistical Modelling', 'A/B Testing',
+      'Regression Analysis', 'Cohort Analysis', 'Excel',
+    ],
   },
   {
-    label: 'Infrastructure',
-    skills: ['Git', 'GitHub', 'AWS', 'Google Cloud', 'CUDA', 'Anaconda', 'Streamlit'],
+    label: 'Software Engineering',
+    skills: [
+      'Git / Version Control', 'Linux (bash / csh)', 'Software Testing & Debugging',
+      'Performance Troubleshooting', 'Code-Review Workflows', 'Arduino',
+    ],
   },
 ]
 
@@ -31,7 +55,7 @@ export default function Skills() {
   return (
     <section id="skills" className={styles.skills}>
       <div className="container">
-        <p className="section-label">03 / skills</p>
+        <p className="section-label">04 / skills</p>
         <h2 className="section-title">Tech Stack</h2>
         <div className="divider" />
 

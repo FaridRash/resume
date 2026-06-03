@@ -3,10 +3,11 @@ import { useState, useEffect } from 'react'
 import styles from './Navbar.module.css'
 
 const links = [
-  { href: '#about',    label: 'About'    },
-  { href: '#projects', label: 'Projects' },
-  { href: '#skills',   label: 'Skills'   },
-  { href: '#contact',  label: 'Contact'  },
+  { href: '#about',      label: 'About'      },
+  { href: '#experience', label: 'Experience' },
+  { href: '#projects',   label: 'Projects'   },
+  { href: '#skills',     label: 'Skills'     },
+  { href: '#contact',    label: 'Contact'    },
 ]
 
 export default function Navbar() {
