@@ -16,7 +16,7 @@ export default function About() {
             <div className={styles.photoWrapper}>
               <Image
                 src="/profile.jpg"
-                alt="Seyed Ali Rashidi"
+                alt="Ali Rashidi"
                 width={260}
                 height={320}
                 className={styles.photo}
