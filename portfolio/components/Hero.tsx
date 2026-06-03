@@ -15,7 +15,7 @@ export default function Hero() {
         </p>
 
         <h1 className={styles.name}>
-          Seyed Ali<br />
+          Ali<br />
           <span className={styles.nameAccent}>Rashidi</span>
         </h1>
 

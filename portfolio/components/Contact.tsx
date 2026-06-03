@@ -67,7 +67,7 @@ export default function Contact() {
               </div>
               <div className={styles.terminalBody}>
                 <p><span className={styles.prompt}>$</span> cat about.txt</p>
-                <p className={styles.out}>Name: Seyed Ali Rashidi (Farid)</p>
+                <p className={styles.out}>Name: Ali Rashidi (Farid)</p>
                 <p className={styles.out}>Location: Naples, Italy</p>
                 <p className={styles.out}>Role: CV &amp; ML Engineer</p>
                 <p className={styles.out}>Status: <span className={styles.green}>Open to work — EU-wide</span></p>

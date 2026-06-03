@@ -8,7 +8,7 @@ export default function Footer() {
           <span className={styles.bracket}>[</span>FAR<span className={styles.bracket}>]</span>
         </span>
         <p className={styles.copy}>
-          © {new Date().getFullYear()} Seyed Ali Rashidi
+          © {new Date().getFullYear()} Ali Rashidi
         </p>
         <p className={styles.built}>
           Built with Next.js · Deployed on Vercel
